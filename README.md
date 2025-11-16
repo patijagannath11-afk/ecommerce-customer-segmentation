@@ -21,7 +21,7 @@ This project is being built in three distinct phases:
 1. The Database (MySQL) - ✅ Complete!
 
 > Goal: Build a professional-grade, relational database to store and manage all raw e-commerce data.
-> Status: I have successfully designed and deployed a database in MySQL. I have created the table schemas (`customers`, `order`, `order_items`, `order_payments`) and am in the process of loading over 100,000 rows of transaction data from the Olist CSV files.
+> Status: I have successfully designed and deployed a database in MySQL. I have created the table schemas ('customers', 'order', 'order_items', `order_payments') and am in the process of loading over 100,000 rows of transaction data from the Olist CSV files.
 
  2. The AI Model (Python) - ⏳ Next Step
 
@@ -30,7 +30,7 @@ This project is being built in three distinct phases:
     * Connect to the MySQL DB using Python (with SQLAlchemy).
     * Perform RFM (Recency, Frequency, Monetary) analysis.
     * Train a K-Means clustering model to create distinct customer segments.
-    * Write these new segments back into a `customer_segments` table in the database.
+    * Write these new segments back into a 'customer_segment' table in the database.
 
 3. The Dashboard (Power BI) - 📋 Planned
 
